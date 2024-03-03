@@ -182,14 +182,12 @@ body {
 .buttom-details button{
     background: transparent;
     cursor: pointer;
-    font-size: 1.2rem;
+    font-size: clamp( 10px, 0.8rem,1rem);
     font-family: "Poppins", sans-serif;
     text-align: center;
     opacity: 60%;
     font-weight: 600;
-
 }
-
 .dish {
     display: flex;
     align-items: center;
