@@ -52,15 +52,21 @@ body {
 
 .header-row-logo a {
     color: var(--color-lion);
-    font-size: 2rem;
-    transition: all 0.3s ease;
+    font-size:4rem;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
 }
 
 .header-row-logo b {
     color: var(--color-gold-metallic);
-    font-size: 2rem;
+    font-size: 4rem;
     text-decoration: none;
-    transition: all 300ms ease;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
 }
 
 .header-container-row {
@@ -99,8 +105,9 @@ body {
 .header-row-menu-nav a {
     display: block;
     color: var(--color-gold-metallic);
-    font-family: 'Black Ops One', sans-serif;
+    font-family: "Dancing Script", cursive;
     font-size: 1.8rem;
+    font-weight: 500;
     text-decoration: none;
     transition: all 300ms ease;
 }
@@ -114,7 +121,7 @@ body {
     width: 100%;
     height: 100vh;
     grid-template-rows: 1fr;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 5fr 1fr;
     grid-template-areas: "container-dish container-details";
 
 }
@@ -122,6 +129,7 @@ body {
 .container-dish {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 100%;
     height: 100%;
     grid-area: container-dish;
@@ -141,12 +149,11 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    
     align-items: start;
     justify-content: space-between;
 }
 .content-details li {
-    font-size: 1.3rem;
+    font-size: clamp(8px,0.8rem,1rem);
     font-family: "Poppins", sans-serif;
     text-align: start;
     justify-content: space-between;
@@ -170,7 +177,7 @@ body {
     display: flex;
     width: 100%;
     margin: 0px 20px 0px 20px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .buttom-details button{
     background: transparent;
@@ -194,9 +201,12 @@ body {
 }
 
 .dish-mask{
+    position: relative;
     display: flex;
     align-items: end;
-    width: 50%;
+    justify-content: center;
+    width: 30%;
+    height: 70%;
     flex-direction: column;
     border-top-right-radius:50%;; 
     border-bottom-right-radius:50%;; 
@@ -205,7 +215,9 @@ body {
     box-shadow:  20px 20px 60px #191f27;
 }
 .mask-circle-shadow {
+    position: absolute;
     display: flex;
+    right: 30px;
     justify-content: center;
     clip-path: circle();
     width: 310px;
@@ -227,7 +239,7 @@ body {
 }
 .menu-dish {
     padding: 10px 10px 10px 50px;
-    width: 100%;
+    width: 80%;
     height: 40vh;
     background:transparent;
 
@@ -237,17 +249,18 @@ body {
     width: 100%;
     height: 100%;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Repete a configuração de 1fr para todas as divs */
-    grid-gap: 30px; 
+    grid-gap: 10px; 
     grid-template-rows: 1fr;
 }
 .content-dish{
     display: flex;
-    width: 150px;
+    width: 130px;
     flex-direction: column;
     align-items: center;
     justify-content:flex-start;
     border-radius: var(---border-radius);
-    gap: 30px;cursor: pointer;
+    gap: 10px;
+    cursor: pointer;
     height: 200px;
     padding: 5px;
     transition: all 0.4s ease;
@@ -272,7 +285,7 @@ body {
 }
 
 .content-dish p{
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: "Poppins", sans-serif;
     text-align: center;
     opacity: 60%;
