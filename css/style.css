@@ -141,15 +141,17 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
+    
     align-items: start;
     justify-content: space-between;
 }
 .content-details li {
     font-size: 1.3rem;
     font-family: "Poppins", sans-serif;
-    text-align: center;
-    opacity: 60%;
+    text-align: start;
+    justify-content: space-between;
     font-weight: 600;
+    list-style-type: disc;
     }
 
 .details {
