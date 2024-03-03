@@ -26,6 +26,7 @@ function replaceImgShow(dishContentId) {
     const replaceImgDishContent = contentDishImg[0].currentSrc
     imgShow[0].setAttribute('src', replaceImgDishContent);
     replaceNameDish(dishContentId);
+    replaceDetailsInpredientsPrePreparationShow(dishContentId);
 }
 function replaceNameDish(dishContentId) {
     const nameDishReplace = document.querySelector("#name-dish");
@@ -63,7 +64,6 @@ async function fetchDetailsIngredientsPreparationDish() {
 async function dishDetailsIngredientsPreparations() {
     const detailsData = await fetchDetailsIngredientsPreparationDish();
     if (detailsData) {
-        console.log(detailsData);
     } else {
         console.log('Não foi possível obter os dados da receita.');
     }
@@ -72,26 +72,23 @@ dishDetailsIngredientsPreparations();
 
 
  function replaceDetailsInitialShow() {
-    dishContent.forEach(contentDish => {
+    
         if (contentDish.classList.contains("content-dish-active")) {
             const contentDetailsUlList = document.querySelector(".content-details-Ingredients-preparation");
-            console.log(contentDetailsUlList);
             const contentDishActive = document.querySelector(".content-dish-active");
             const dishID = contentDishActive.id;
 
             async function fetchData() {
                 const detailsData = await fetchDetailsIngredientsPreparationDish();
-                const detailsValidationId = detailsData.id;
 
-                for (let index = 0; index < detailsData.length; detailsData++) {
-                    const contentDishDetails = detailsData[index];
+                for (let i = 0; i < detailsData.length; detailsData++) {
+                    const contentDishDetails = detailsData[i];
                     
                     if(contentDishDetails.id == dishID){
 
                         const dishDetails = contentDishDetails.ingredients;
                         contentDetailsUlList.innerHTML = '';
                             dishDetails.forEach(detailsIngredients => {
-                                console.log(detailsIngredients);
                               const ul = document.createElement('ul');
                               const ulContent = `
                                 <li>${detailsIngredients}</li>
@@ -109,33 +106,42 @@ dishDetailsIngredientsPreparations();
 
             fetchData();
         }
-    });
-};
+    };
 
 replaceDetailsInitialShow();
 
-// const detailsDishIngredientsPreparation= async () => {
-//   const topClientorders = await fetchOrders();
+async function replaceDetailsInpredientsPrePreparationShow(dishContentId) {
+    const validationIdDishClickInIcon=dishContentId;
+    
+        const contentDetailsUlList = document.querySelector(".content-details-Ingredients-preparation");
 
-//   if (topClientorders) {
-//     const topClientorderValidate=topClientorders.topClientOrdes;
-//     tbodydashboardTopClientOrders.innerHTML = '';
 
-//     topClientorderValidate.forEach(topClientorder => {
-//       const tr = document.createElement('li');
-//       const trContent = `
-//         <td>${topClientorder.client}</td>
-//         <td>${numeroFormatado}</td>
-//         <td>${topClientorder.email}</td>
-//         <td>${topClientorder.amount}</td>
-//         `;
-//       tr.innerHTML = trContent;
-//       tbodydashboardTopClientOrders.appendChild(tr);
+            const detailsDataAll = await fetchDetailsIngredientsPreparationDish();
 
-//     });
-//   } else {
-//     console.error('Failed to load orders.');
-//   }
-// }
+            detailsDataAll.forEach(detailsDish => {
+                if(detailsDish.id == validationIdDishClickInIcon){
+         
 
-// dashboardTopClientOrders();
+                    const details = detailsDish.ingredients;
+                    console.log("Teste"+ details);
+                    contentDetailsUlList.innerHTML = '';
+                        details.forEach(detailsIngredients => {
+                          const ul = document.createElement('ul');
+                          const ulContent = `
+                            <li>${detailsIngredients}</li>
+                            `;
+                            ul.innerHTML = ulContent;
+                            contentDetailsUlList.appendChild(ul);
+                    
+                        });
+                
+            }
+             
+            });
+            
+
+                
+ 
+            ;
+
+};
