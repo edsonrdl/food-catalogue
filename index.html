@@ -11,9 +11,11 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <title>Página culinária regional</title>
 </head>
 
@@ -44,8 +46,8 @@
                     <div class="dish-mask">
                         <div class="mask-circle-shadow">
                             <div class="mask-circle">
-                                <img class="img-tacaca"
-                                    src="https://acozinhabrasileira.com.br/wp-content/uploads/2021/09/receita-de-tacaca.jpg"
+                                <img class="img-show"
+                                    src="https://sohelices.com.br/wp-content/uploads/2017/08/acai_puro_natural.jpg"
                                     alt="">
                             </div>
                         </div>
@@ -54,7 +56,7 @@
                         <div>
                             <h1>
                                 <span class="word">Culinária Regional</span>
-                                <span class="word">Tacacá</span>
+                                <span id="name-dish" class="word">Açaí</span>
                             </h1>
 
                         </div>
@@ -65,10 +67,10 @@
                 </div>
                 <div class="menu-dish">
                     <div class="container-grid-menu-dish">
-                        <div class="content-dish">
+                        <div id="acai" class="content-dish content-dish-active">
                             <div class="img-mask">
                                 <div class="img-dish-mask-shadow">
-                                    <div id="acai" class="img-dish-mask">
+                                    <div  class="img-dish-mask">
                                         <img width="100" height="100"
                                             src="https://sohelices.com.br/wp-content/uploads/2017/08/acai_puro_natural.jpg"
                                             alt="">
@@ -77,22 +79,22 @@
                             </div>
                             <p>Açaí</p>
                         </div>
-                        <div class="content-dish">
+                        <div id="tacaca" class="content-dish">
                             <div class="img-mask">
                                 <div class="img-dish-mask-shadow">
-                                    <div id="tacaca" class="img-dish-mask">
+                                    <div  class="img-dish-mask">
                                         <img width="100" height="100"
                                             src="https://acozinhabrasileira.com.br/wp-content/uploads/2021/09/receita-de-tacaca.jpg"
-                                            alt="Açaí">
+                                            alt="Tacacá">
                                     </div>
                                 </div>
                             </div>
                             <p>Tacacá</p>
                         </div>
-                        <div class="content-dish">
+                        <div  id="vatapa" class="content-dish">
                             <div class="img-mask">
                                 <div class="img-dish-mask-shadow">
-                                    <div id="acai" class="img-dish-mask">
+                                    <div class="img-dish-mask">
                                         <img width="100" height="100"
                                             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-tbK_u6lLMMXMUBGBB7cHEnwPl8kQ8l3PUg&usqp=CAU"
                                             alt="Vatapá">
@@ -101,10 +103,10 @@
                             </div>
                             <p>Vatapá</p>
                         </div>
-                        <div class="content-dish">
+                        <div id="manicoba" class="content-dish">
                             <div class="img-mask">
                                 <div class="img-dish-mask-shadow">
-                                    <div id="acai" class="img-dish-mask">
+                                    <div  class="img-dish-mask">
                                         <img width="100" height="100"
                                             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMET1B2F13KIO1qJf7ux1oLoakGYEjckB9tQ&usqp=CAU"
                                             alt="Maniçoba">
@@ -113,10 +115,10 @@
                             </div>
                             <p>Maniçoba</p>
                         </div>
-                        <div class="content-dish">
+                        <div id="pato-no-tucupi" class="content-dish">
                             <div class="img-mask">
                                 <div class="img-dish-mask-shadow">
-                                    <div id="acai" class="img-dish-mask">
+                                    <div  class="img-dish-mask">
                                         <img width="100" height="100"
                                             src="https://www.acritica.com/image/policy:1.146035.1647714052:1647714052/image.jpg?f=default&w=1200"
                                             alt="Pato no tucupí">
@@ -125,10 +127,10 @@
                             </div>
                             <p>Pato no Tucupí</p>
                         </div>
-                        <div class="content-dish">
-                            <div class="img-mask">
+                        <div id="bolo-de-macacheira" class="content-dish">
+                            <div  class="img-mask">
                                 <div class="img-dish-mask-shadow">
-                                    <div id="acai" class="img-dish-mask">
+                                    <div  class="img-dish-mask">
                                         <img width="100" height="100"
                                             src="https://s2-receitas.glbimg.com/OnnHCd39Ylu_Yj4dBeF4GAUNKVU=/0x0:354x267/984x0/smart/filters:strip_icc()/s.glbimg.com/po/rc/media/2014/09/09/21_42_23_745_Bolo_de_aipim_com_coco.png"
                                             alt="Bolo de macacheira">
@@ -137,10 +139,10 @@
                             </div>
                             <p>Bolo de Macaxeira</p>
                         </div>
-                        <div class="content-dish">
+                        <div id="tapioquinha" class="content-dish">
                             <div class="img-mask">
                                 <div class="img-dish-mask-shadow">
-                                    <div id="acai" class="img-dish-mask">
+                                    <div  class="img-dish-mask">
                                         <img width="100" height="100"
                                             src="https://static.itdg.com.br/images/360-240/a0837cd9dcce324ebd50f99e04bf5125/38497-original.jpg"
                                             alt="Tapioquinha">
@@ -164,19 +166,19 @@
                     </div>
                     <div class="content-details">
                         <ul>
-                        <li>2l de tucupi</li>
-                        <li>2 dentes de alho</li>
-                        <li>3 folhas de chicória do Pará</li>
-                        <li>1 maço de alfavaca</li>
-                        <li>300g de tapioca de mandioca</li>
-                        <li>1\2 colher de sal</li>
-                        <li>500ml de água</li>
-                        <li>4 folhas de chicória do Pará picadas</li>
-                        <li>3 maços de jambu</li>
-                        <li>5 pimentas de cheiro</li>
-                        <li>500g de camarão salgado</li>
+                            <li>2l de tucupi</li>
+                            <li>2 dentes de alho</li>
+                            <li>3 folhas de chicória do Pará</li>
+                            <li>1 maço de alfavaca</li>
+                            <li>300g de tapioca de mandioca</li>
+                            <li>1\2 colher de sal</li>
+                            <li>500ml de água</li>
+                            <li>4 folhas de chicória do Pará picadas</li>
+                            <li>3 maços de jambu</li>
+                            <li>5 pimentas de cheiro</li>
+                            <li>500g de camarão salgado</li>
                         </ul>
-                        
+
                     </div>
 
                 </div>
