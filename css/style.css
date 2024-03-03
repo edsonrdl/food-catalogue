@@ -1,12 +1,14 @@
 :root {
-    --color-background: rgb(228, 221, 221);
+    --color-background: rgb(230, 224, 224);
     --color-white: rgb(255, 255, 255);
     --color-black: #0A0908;
     --color-raisin-black: #1D242E;
+    --color-shadow-black: #555555;
     --color-gold-metallic: #9E902A;
     --color-lion: #CC9F5E;
     --color-olive: ##9E902A;
-    --box-shadow: 0 2rem 3rem var(--color-background);
+    ---border-radius:10px;
+    --box-shadow-back-shadow:  20px 20px 70px var(--color-shadow-black);
     --box-border-radius: 30px;
 }
 
@@ -130,16 +132,52 @@ body {
     width: 100%;
     height: 100%;
     padding: 20px;
-    background: #1D242E;
+    background:transparent;
     flex-direction: column;
     justify-content: center;
 }
+.content-details ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+.content-details li {
+    font-size: 1.3rem;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    opacity: 60%;
+    font-weight: 600;
+    }
 
 .details {
     width: auto;
     height: 60vh;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
     border-radius: var(--box-border-radius);
-    background: var(--color-white);
+    background: var(--color-background);
+    box-shadow: var(--box-shadow-back-shadow);
+}
+.buttom-details{
+    display: flex;
+    width: 100%;
+    margin: 0px 20px 0px 20px;
+    justify-content: space-between;
+}
+.buttom-details button{
+    background: transparent;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    opacity: 60%;
+    font-weight: 600;
 
 }
 
@@ -148,6 +186,7 @@ body {
     align-items: center;
     width: 100%;
     height: 60vh;
+    gap: 100px;
     background:transparent;
 
 }
@@ -184,8 +223,56 @@ body {
     width: 300px;
     height: 300px;
 }
-.Ingredients {
+.menu-dish {
+    padding: 10px 10px 10px 50px;
     width: 100%;
     height: 40vh;
-    background: #726d4a;
+    background:transparent;
+
+}
+.container-grid-menu-dish{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Repete a configuração de 1fr para todas as divs */
+    grid-gap: 30px; 
+    grid-template-rows: 1fr;
+}
+.content-dish{
+    display: flex;
+    width: 150px;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    border-radius: var(---border-radius);
+    gap: 30px;cursor: pointer;
+    height: 200px;
+    padding: 5px;
+    transition: all 0.4s ease;
+}
+.content-dish:hover{
+  box-shadow: var(--box-shadow-back-shadow);
+}
+.img-dish-mask-shadow{
+    clip-path: circle();
+    height: 100%;
+    width: 100%;
+    background: var(--color-raisin-black);
+}
+.img-dish-mask{
+    scale: 0.98;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(100%-5px);
+    height: calc(100%-5px);
+    clip-path: circle();
+}
+
+.content-dish p{
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    opacity: 60%;
+    font-weight: 600;
 }
