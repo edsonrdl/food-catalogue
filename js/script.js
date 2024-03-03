@@ -13,6 +13,7 @@ function activedishContent(event) {
     });
 
     clickedElement.classList.add('content-dish-active');
+    validationButtomDetailsInitialIngredientsInDish();
 }
 
 dishContent.forEach(contentDish => {
@@ -43,13 +44,22 @@ function activebuttomDetails(event) {
 
     idBtnActive.classList.add('btn-details-active');
     replaceDetailsInpredientsPrePreparationShow(idBtnActive.id);
-
 }
 
 AllbtnDetails.forEach(buttomDetails => {
     buttomDetails.addEventListener("click", activebuttomDetails);
 });
 
+function validationButtomDetailsInitialIngredientsInDish() {
+
+    const btnValidationIngredients = document.getElementById("btn-Ingredients");
+    const btnValidationPreparation = document.getElementById("btn-preparation");
+
+    if(btnValidationPreparation.classList.contains("btn-details-active")){
+        btnValidationPreparation.classList.remove("btn-details-active");
+    }
+    btnValidationIngredients.classList.add('btn-details-active');
+ }
 
 async function fetchDetailsIngredientsPreparationDish() {
     try {
@@ -71,46 +81,6 @@ async function dishDetailsIngredientsPreparations() {
 }
 dishDetailsIngredientsPreparations();
 
-
-//  function replaceDetailsInitialShow() {
-
-//         if (contentDish.classList.contains("content-dish-active")) {
-//             const contentDetailsUlList = document.querySelector(".content-details-Ingredients-preparation");
-//             const contentDishActive = document.querySelector(".content-dish-active");
-//             const dishID = contentDishActive.id;
-
-//             async function fetchData() {
-//                 const detailsData = await fetchDetailsIngredientsPreparationDish();
-
-//                 for (let i = 0; i < detailsData.length; detailsData++) {
-//                     const contentDishDetails = detailsData[i];
-
-//                     if(contentDishDetails.id == dishID){
-
-//                         const dishDetails = contentDishDetails.ingredients;
-//                         contentDetailsUlList.innerHTML = '';
-//                             dishDetails.forEach(detailsIngredients => {
-//                               const ul = document.createElement('ul');
-//                               const ulContent = `
-//                                 <li>${detailsIngredients}</li>
-//                                 `;
-//                                 ul.innerHTML = ulContent;
-//                                 contentDetailsUlList.appendChild(ul);
-
-//                             });
-//                               } else {
-//                                 console.error('Falha ao criar lista.');
-//                   }
-//                     }
-
-//             }
-
-//             fetchData();
-//         }
-//     };
-
-// replaceDetailsInitialShow();
-
 async function replaceDetailsInpredientsClickInDish(dishContentId) {
     const validationIdDishClickInIcon = dishContentId;
 
@@ -124,7 +94,6 @@ async function replaceDetailsInpredientsClickInDish(dishContentId) {
 
 
             const details = detailsDish.ingredients;
-            console.log("Teste" + details);
             contentDetailsUlList.innerHTML = '';
             details.forEach(detailsIngredients => {
                 const li = document.createElement('li');
