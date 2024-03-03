@@ -162,15 +162,15 @@ body {
 .content-details-Ingredients-preparation li {
     font-size: clamp(8px,0.8rem,1rem);
     font-family: "Poppins", sans-serif;
-    text-align: start;
-    justify-content: space-between;
     font-weight: 600;
+    align-items: center;
+    justify-content: space-between;
     list-style-type: disc;
     }
 
 .details {
     width: auto;
-    height: 60vh;
+    height: 80vh;
     display: flex;
     padding: 20px;
     flex-direction: column;

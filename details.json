@@ -1,66 +1,41 @@
 [
-    {
-      "id": "acai",
-      "ingredients": [
-        "2l de tucupi",
-        "2 dentes de alho",
-        "3 folhas de chicória do Pará",
-        "1 maço de alfavaca",
-        "300g de tapioca de mandioca",
-        "Meia colher de sal",
-        "500ml de água",
-        "4 folhas de chicória do Pará picadas",
-        "3 maços de jambu",
-        "5 pimentas de cheiro",
-        "500g de camarão salgado"
-      ],
-      "preparation":[
-      {
-        "name": "Camarão",
-        "preparo":"Lave os camarões com um litro de água e deixe marinar por seis horas. Reserve. Cozinhe o jambu sem os talos por três minutos. Reserve."
-      },
-      {
-        "name": "Caldo",
-        "preparo":"Coloque o tucupi em uma panela, acrescente o alho, três folhas de chicória e a alfavaca. Leve ao fogo por três minutos. Reserve."
-      },
-      {
-        "name": "Goma",
-        "preparo":"Numa panela, leve ao fogo 500ml de água com uma pitada de sal e quatro folhas de chicória picada. Deixe cozinhar até levantar fervura. Reserve.Em outra panela, dissolva a tapioca em 500ml de água fervendo, até formar uma goma transparente. Reserve."
-      },
-      {
-        "name": "Finalização",
-        "preparo":"Coloque sal a gosto na cuia. Em seguida ponha um pouco de tucupi para que a goma não grude no fundo. Sirva uma concha de goma. Coloque o jambu, o camarão, a pimenta e o restante do tucupi."
-      }
+  {
+    "id": "acai",
+    "ingredients": [
+      "2l de tucupi",
+      "2 dentes de alho",
+      "3 folhas de chicória do Pará",
+      "1 maço de alfavaca",
+      "300g de tapioca de mandioca",
+      "Meia colher de sal",
+      "500ml de água",
+      "4 folhas de chicória do Pará picadas",
+      "3 maços de jambu",
+      "5 pimentas de cheiro",
+      "500g de camarão salgado"
+    ],
+    "preparation": [
+      "Camarão: Lave os camarões com um litro de água e deixe marinar por seis horas. Reserve. Cozinhe o jambu sem os talos por três minutos.",
+      "Caldo: Coloque o tucupi em uma panela, acrescente o alho, três folhas de chicória e a alfavaca. Leve ao fogo por três minutos.",
+      "Goma: Numa panela, leve ao fogo 500ml de água com uma pitada de sal e quatro folhas de chicória picada. Deixe cozinhar até levantar fervura.Em outra panela, dissolva a tapioca em 500ml de água fervendo, até formar uma goma transparente.",
+      "Finalização :Coloque sal a gosto na cuia. Em seguida ponha um pouco de tucupi para que a goma não grude no fundo. Sirva uma concha de goma. Coloque o jambu, o camarão, a pimenta e o restante do tucupi."
     ]
-    },
-    {
-      "id": "tacaca",
-      "ingredients": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "5"
-      ],
-      "preparation":[
-      {
-        "name": "Camarão",
-        "preparo":"Lave os camarões com um litro de água e deixe marinar por seis horas. Reserve. Cozinhe o jambu sem os talos por três minutos. Reserve."
-      },
-      {
-        "name": "Caldo",
-        "preparo":"Coloque o tucupi em uma panela, acrescente o alho, três folhas de chicória e a alfavaca. Leve ao fogo por três minutos. Reserve."
-      },
-      {
-        "name": "Goma",
-        "preparo":"Numa panela, leve ao fogo 500ml de água com uma pitada de sal e quatro folhas de chicória picada. Deixe cozinhar até levantar fervura. Reserve.Em outra panela, dissolva a tapioca em 500ml de água fervendo, até formar uma goma transparente. Reserve."
-      },
-      {
-        "name": "Finalização",
-        "preparo":"Coloque sal a gosto na cuia. Em seguida ponha um pouco de tucupi para que a goma não grude no fundo. Sirva uma concha de goma. Coloque o jambu, o camarão, a pimenta e o restante do tucupi."
-      }
+  },
+  {
+    "id": "tacaca",
+    "ingredients": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "5"
+    ],
+    "preparation": [
+      " Camarão:Lave os camarões com um litro de água e deixe marinar por seis horas. Reserve. Cozinhe o jambu sem os talos por três minutos. Reserve.",
+      "Caldo:Coloque o tucupi em uma panela, acrescente o alho, três folhas de chicória e a alfavaca. Leve ao fogo por três minutos. Reserve.",
+      "Goma:Numa panela, leve ao fogo 500ml de água com uma pitada de sal e quatro folhas de chicória picada. Deixe cozinhar até levantar fervura. Reserve.Em outra panela, dissolva a tapioca em 500ml de água fervendo, até formar uma goma transparente. Reserve.",
+      "Finalização:Coloque sal a gosto na cuia. Em seguida ponha um pouco de tucupi para que a goma não grude no fundo. Sirva uma concha de goma. Coloque o jambu, o camarão, a pimenta e o restante do tucupi."
     ]
-    }
-  ]
-  
+  }
+]
