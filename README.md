@@ -21,7 +21,7 @@ Painel de ingredientes e modo de preparo
 ![alt text](image-2.png)
 
 ## Demostração
-<video controls src="Vídeo sem título ‐ Feito com o Clipchamp.mp4" title="Vídeo da página de culinária paraense"></video>
+![alt text](Vídeo-sem-título-‐-Feito-com-o-Clipchamp.gif)
 
 
 ## Tecnologias Utilizadas
