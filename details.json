@@ -2,12 +2,26 @@
   {
     "id": "acai",
     "ingredients": [
+      "Polpa de Açaí ou o fruto fresco",
+      "Água",
+      "farinha de tapioca"
+    ],
+    "preparation": [
+      "Açaí polpa: Pegue a polpa do açaí e adicione água de sua preferência dependendo da viscosidade do açaí(Se está fino ou grosso)",
+      "Açaí fruto :Caso for o fruto deverá bater o açaí em máquina própria para a retirada do fruto e adicionado aguá de preferencia dependendo da quantidade de açaí",
+      "Farinha :Pegue a mistura de açaí com água,coloque em um recipiente como uma tigela",
+      "Finalização :Adicione farinha de tapioca no açaí de sua preferência"
+    ]
+  },
+  {
+    "id": "tacaca",
+    "ingredients": [
       "2l de tucupi",
       "2 dentes de alho",
       "3 folhas de chicória do Pará",
       "1 maço de alfavaca",
       "300g de tapioca de mandioca",
-      "Meia colher de sal",
+      "1/2 colher de sal",
       "500ml de água",
       "4 folhas de chicória do Pará picadas",
       "3 maços de jambu",
@@ -22,20 +36,134 @@
     ]
   },
   {
-    "id": "tacaca",
+    "id": "vatapa",
     "ingredients": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "5",
-      "5"
+      "Recheio: peito de frango temperado com alho, pimenta e sal",
+      "Recheio: 1 pimentão verde",
+      "Recheio: 1/2 maço cheiro verde (cebolinha e coentro)",
+      "Recheio: 1 tomate",
+      "Recheio: 1 cebola",
+      "Recheio: Azeite de dendê",
+      "Mingau: 1/2 l de leite",
+      "Mingau: 1 xícara de trigo (dissolver bem, antes de misturar), talvez não use tudo",
+      "Mingau: 200 ml de leite de coco",
+      "Mingau: 3 tabletes caldo de galinha",
+      "Mingau: 1 cebola média",
+      "Mingau: Azeite de dendê"
+   
     ],
     "preparation": [
-      " Camarão:Lave os camarões com um litro de água e deixe marinar por seis horas. Reserve. Cozinhe o jambu sem os talos por três minutos. Reserve.",
-      "Caldo:Coloque o tucupi em uma panela, acrescente o alho, três folhas de chicória e a alfavaca. Leve ao fogo por três minutos. Reserve.",
-      "Goma:Numa panela, leve ao fogo 500ml de água com uma pitada de sal e quatro folhas de chicória picada. Deixe cozinhar até levantar fervura. Reserve.Em outra panela, dissolva a tapioca em 500ml de água fervendo, até formar uma goma transparente. Reserve.",
-      "Finalização:Coloque sal a gosto na cuia. Em seguida ponha um pouco de tucupi para que a goma não grude no fundo. Sirva uma concha de goma. Coloque o jambu, o camarão, a pimenta e o restante do tucupi."
+      "Recheio: Desfie o peito de frango já cozido e temperado.",
+      "Recheio: Refogue no azeite de dendê com o tomate, o pimentão, a cebola e o cheiro verde.",
+      "Recheio: Se quiser acrescente camarão.",
+      "Mingau:: Frite a cebola no azeite de dendê, coloque o leite e os tabletes de caldo.",
+      "Mingau:: Quando começar a ferver, acrescente o trigo e mexa sem parar, até cozinhar bem.",
+      "Mingau:: Quando estiver colocando o trigo, acrescente de acordo com o gosto, se quiser mais grosso ou fino.",
+      "Mingau:: Coloque 200 ml de leite de coco.",
+      "Mingau:: Acrescente aos poucos azeite de dendê até a cor de laranja.",
+      "Mingau:: Depois coloque o recheio sem desligar o fogo.",
+      "Mingau:: Por último a pimenta e sal a gosto.",
+      "Mingau:: A quantidade de leite fica a gosto, se quiser mais pode acrescentar.",
+      "Mingau:: Se sobrar e for esquentar adicione leite, para ficar com o mesmo gosto."
+
+    ]
+  },
+  {
+    "id": "manicoba",
+    "ingredients": [
+      "Ingredientes (30 porções)",
+      "1,5 kg de maniva pré-cozida",
+      "1 kg de toucinho salgado",
+      "1/2 kg de charque",
+      "1/2 kg de carne de porco assada de forno",
+      "Costelinha de porco defumada",
+      "Folhas de louro",
+      "1 kg de linguiça calabresa",
+      "1/2 kg de paio",
+      "1/2 kg de bacon"
+    ],
+    "preparation": [
+      "Modo de preparo: 3 horas",
+      "Coloque pra ferver a maniva e as folhas de louro, em bastante água em uma panela grande.",
+      "Em outra panela escalde por 2 vezes o toucinho e acrescente a maniva, deixe cozinhar até dissolve-lo totalmente.",
+      "Quando dissolver e começar a ficar escura a maniva, acrescente uns pedaços de bacon e de chouriços em cubos grandes.",
+      "Deixe ferver bem.",
+      "Em uma tigela corte a calabresa em rodelas, o paio o restante do chouriço e o bacon.",
+      "Escalde o charque e junte aos pedaços, quando estiver bem pretinha a maniva com os ingredientes coloque a carne de porco cortada em pedaços, já assada em forno e o restante dos ingredientes.",
+      "Deixe encorpar, a maniçoba fica preta e bem encorpada.",
+      "Sirva com arroz escorrido e molho de pimenta de cheiro."
+
+
+    ]
+  },
+  {
+    "id": "pato-no-tucupi",
+    "ingredients": [
+      "Ingredientes (4 porções)",
+      "1 pato de 3 kg",
+      "5 maços de jambu",
+      "2 cebola",
+      "sal a gosto",
+      "2 limão",
+      "1 colhe de manteiga",
+      "pimenta de cheiro",
+      "3 litro de tucupi",
+      "10 dentes de alho",
+      "1 maço de chicória do Pará",
+      "2 tomates",
+      "1 pitada de pimenta do reino",
+      "2 colheres de azeite"
+
+    ],
+    "preparation": [
+      "O pato: Limpe o pato e o lave com algumas folhas de chicória e limão.",
+      "O pato: Deixe-o de véspera na vinha d'alho com alho, sal e pimenta-do-reino.",
+      "O pato: Corte-o em pedaços e refoge-o com cebola, alho, tomate bem picados, com a manteiga e o azeite.",
+      "O pato: Asse-o de panela para amolecer e depois asse-o de forno até dourar.",
+      "O tucupi: Ferver o tucupi com sal, dentes de alhos inteiros apenas amaçados, a chicória.",
+      "O jambu:Lave-o bem , retire as flores, quando houver, afervente-o em aguá e sal até amolecer, escorra e coloque-o no tucupi.",
+      "Molho de pimenta: Coloque um pouco do tucupi quente em uma molheira, acrescente a pimenta de cheiro levemente amassada.",
+      "Finalização: Quando o pato estiver macio e tostado, junte-o ao tucupi com o jambu e quando ferver estará pronto. Siva-o com farinha de mandioca paraense e arroz branco."
+     ]
+  },
+  {
+    "id": "bolo-de-macacheira",
+    "ingredients": [
+      "Ingredientes (14 porções)",
+      "1 xícara (chá) de leite",
+      "5 ovos",
+      "1 kg de macacheira descascada e picada",
+      "1 xícara (chá) de leite de coco",
+      "3 xícaras de açúcar",
+      "1 xícara (chá) de manteiga derretida"
+ 
+   
+    ],
+    "preparation": [
+      "Modo de preparo: 1h",
+      "No liquidificador, bata o leite, o leite de coco, os ovos e o açúcar.",
+      "Transfira metade da mistura para um recipiente.",
+      "O restante que ficou no liquidificador bata metade da mandioca, bata até obter uma mistura homogênea, repita a operação com a outra metade da mistura reservada e a macaxeira restante.",
+      "Misture as massas numa tigela grande, junte a manteiga, em uma forma com buraco no meio de 23 cm de diâmetro untada com manteiga, leve ao forno quente (200°C) preaquecido.",
+      "Deixe assar por uma hora e 30 minutos ou até dourar. Deixe amornar, desenforme e sirva."
+
+
+    ]
+  },
+  {
+    "id": "tapioquinha",
+    "ingredients": [
+      "500 g de farinha para tapioca (bijou)",
+      "sal a gosto",
+      "Manteiga",
+      "Adicionais :Queijo,presunto e ovo"
+    ],
+    "preparation": [
+      "Pegue uma frigideira de preferência",
+      "Deixe esquentar a frigideira e jogue a tapioca de forma uniforme pela fridigeira",
+      "Com uma colher vá precionando uniformimente a tapioca",
+      "Depois é só retirar e passar manteiga ou algum creme de preferência",
+      "Adicione o queijo,presunto e ovo caso desejar"
     ]
   }
 ]
