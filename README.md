@@ -1,6 +1,7 @@
-Projeto de pratos regionais de Belém-PA
+## Projeto de pratos regionais de Belém-PA
 
-
+## Objetivo 
+Criar uma página para praticar meus conhecimentos como desenvolvedor sem nenhum fim lucrativo diante dos conteúdos utilizandos no projeto 
 ## Sobre o Projeto
 Este projeto visa criar uma página web para explorar e compartilhar a rica culinária da região paraense, utilizando HTML, CSS e JavaScript como prática para desenvolvimento web.
 
@@ -29,5 +30,4 @@ Painel de ingredientes e modo de preparo
 - **CSS:** 
 
 - **JAVASCRIPT:** 
-
 
