@@ -117,6 +117,7 @@ body {
 .header-row-menu-nav a {
     display: block;
     color: var(--color-hunyadi-yellow);
+    opacity: 80%;
     font-family: "Dancing Script", cursive;
     font-size: 1.8rem;
     font-weight: 500;
@@ -126,19 +127,8 @@ body {
 }
 .header-row-menu-nav a:hover {
     color: var(--color-orange-web);
+    opacity: 100%;
     border-bottom: solid 1px  var(--color-hunyadi-yellow);
-    animation: border-bottom  300ms linear;
-}
-@keyframes border-bottom{
-    0% {
-        width: 0%;
-    }
-    50% {
-        width: 50%;
-    }
-    100% {
-        width: 100%;
-    }
 
 }
 
