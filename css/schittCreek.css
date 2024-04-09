@@ -38,31 +38,26 @@
 }
 
 h1 {
-  color: #1D242E;
+  color: #14213D;
   font-family: "Playfair Display", Vidaloka, serif;
   font-size: 6rem;
-
   line-height: 0.85;
   perspective: 500px;
 }
 
 .word {
   display: block;
-
   animation: show 0.01s forwards, pop-word 1.5s forwards;
   animation-timing-function: cubic-bezier(0.14, 1.23, 0.33, 1.16)  ;
   opacity: 0;
-
   transform: rotateX(120deg);
   transform-origin: 50% 100%;
 }
 
 .word:nth-of-type(2) {
-  padding: 0 2rem;
-
+margin-left: 30px;
   animation-delay: 2s;
-
-  color: #CC9F5E;
+  color: #FCA311;
 }
 
 

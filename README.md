@@ -13,15 +13,9 @@ Seção de História e Cultura: Contexto cultural e histórico sobre a culinári
 
 ## Visão Geral 
 Icones para selecionar o tipo de prato para ser exibido com painel de ingredientes e modo de preparo 
-![alt text](image.png)
-
-![alt text](image-1.png)
-
-Painel de ingredientes e modo de preparo
-![alt text](image-2.png)
+![alt text](./assets/demostracao.png)
 
 ## Demostração
-![alt text](Vídeo-sem-título-‐-Feito-com-o-Clipchamp.gif)
 
 
 ## Tecnologias Utilizadas
