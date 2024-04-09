@@ -63,7 +63,7 @@ function validationButtomDetailsInitialIngredientsInDish() {
 
 async function fetchDetailsIngredientsPreparationDish() {
     try {
-        const response = await fetch('details.json');
+        const response = await fetch('./assets/details.json');
         const data = await response.json();
         return data;
     } catch (error) {
