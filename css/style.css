@@ -146,12 +146,14 @@ body {
 
 .mask-background-dish {
     position: absolute;
+    left: 0;
     height: 100vh;
+    width: auto;
 }
 
 .mask-background-dish svg {
-    height: 100vh;
-    width: auto;
+    height: 100%;
+    width: 100%;
 }
 .mask-background-dish .svg-background {
     fill: var(--color-black);
@@ -176,12 +178,13 @@ body {
 }
 .container-dish {
     display: flex;
+    margin-top: 10vh;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: var(--gap-min);
     width: 100%;
-    height: 100%;
+    height: calc(100%-8vh);
     grid-area: container-dish;
     z-index: 10;
 }
@@ -264,13 +267,11 @@ body {
 .dish {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
     width: 100%;
-    height: 60vh;
-    gap: 100px;
+    gap: var(--gap-min);
+    margin-left: 30%;
     background: transparent;
-
 }
 
 
@@ -318,11 +319,11 @@ body {
 .content-dish {
     padding: var(--padding-min);
     display: flex;
-    width: 120px;
+    width: 100px;
     border-radius: var(---border-radius);
     gap: var(--gap-min);
     cursor: pointer;
-    height: 180px;
+    height: 150px;
     background: var(--gradient-ligth);
     box-shadow: var(--box-shadow-back-shadow-ligth);
     flex-direction: column;
@@ -358,4 +359,8 @@ body {
     align-items: center;
     justify-content: center;
     clip-path: circle();
+}
+.img-dish-mask img{
+    width: 60px;
+    height: 60px;
 }
